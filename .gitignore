@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore pytest cache and temporary files
+.pytest_cache/
+pytestdebug.log
+pytest-report.html
+pytest_report/
+
+# Ignore Playwright artifacts
+allure-report/
+allure-results/
+allure_results/
+
+
+#screenshot and videos
+screenshots/
+videos/
